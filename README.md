@@ -21,7 +21,7 @@
 
 ### Features
 
-* Commands are-
+* Basic commands are-
 
     ***PING, GET, SET, EXISTS, DEL,***
     
@@ -195,49 +195,6 @@ Document behavior, not just implement features.
 
 ---
 
-### 🚀 How to Run the Project 🛠️
-
-#### Prerequisites
-
-To run TinyCache, make sure you have the following installed on your machine:
-
-- **Go 1.22** or higher. You can download Go from [here](https://golang.org/dl/).
-
-Verify your Go version using:
-```bash
-go version
-```
-
-#### Running the Project
-
-1. Clone the repository or download it manually:
-    ```bash
-    git clone https://github.com/nahK994/tiny-cache.git
-    cd TinyCache
-    ```
-2. Use the `run.sh` script to manage the server and client. This script provides options to start the server, client, playground, and more.
-3. Run the following command to start the script:
-    ```bash
-    bash run.sh
-    ```
-
-4. You will be presented with the following options:
-    ```bash
-    1) Start server
-    2) Start client
-    3) Start playground
-    4) Kill running server and client
-    5) Run test
-    6) Run build
-    Type: 
-    ```
-
-5. Type 1 to start the server, or 2 to start the client.
-6. To stop any running process, select the Kill process option by typing 4.
-7. To run the tests, type 5 and press enter.
-8. Type 6 to build binaries for client and server.
-
-
 ### 📥 Installation
 If you'd like to install TinyCache on Linux without cloning the repository, use the following command to install both the server and client:
 ```bash
@@ -258,10 +215,3 @@ This will stop the service, remove the binaries, and clean up all installed file
 TinyCache aims to answer:
 
 > “What happens when a simple cache is pushed toward real-world constraints?”
-
-Instead of just building features, this project focuses on understanding:
-
-* Why a design works
-* When it breaks
-* What tradeoffs it makes
-
